@@ -96,7 +96,6 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/modelid_cfg.sh:system/bin/modelid_cfg.sh
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cm/proprietary/RomManager.apk:system/app/RomManager.apk \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
     vendor/cm/prebuilt/common/apps/Superuser.apk:system/app/Superuser.apk
@@ -138,12 +137,9 @@ PRODUCT_PACKAGES += \
     SoundRecorder \
     Basic \
     HoloSpiralWallpaper \
-    MagicSmokeWallpapers \
     NoiseField \
-    Galaxy4 \
     LiveWallpapers \
     LiveWallpapersPicker \
-    VisualizationWallpapers \
     PhaseBeam
 
 # Custom CM packages
